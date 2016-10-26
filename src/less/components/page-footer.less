@@ -1,0 +1,153 @@
+.page-footer {
+  text-align: center;
+}
+
+.page-footer__layout {
+  padding-bottom: 30px;
+}
+
+.page-footer__hash {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  padding-top: 30px;
+
+
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.page-footer__social-links {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.page-footer__social-links ul {
+  list-style: none;
+
+  font-size: 0;
+
+  &::after {
+    .clearfix();
+  }
+
+  & li {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+
+    width: 50px;
+    height: 50px;
+
+    margin-right: 10px;
+
+    background-color: @bg__light-blue;
+  }
+
+  & li:hover {
+    background-color: @color__light-blue--hover;
+  }
+
+  & li:active {
+    background-color: @color__light-blue--active;
+  }
+
+
+
+}
+
+.social-link {
+  width: inherit;
+  height: inherit;
+  display: block;
+
+  &--tw {
+    .sprite(@icon-twitter);
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+
+  &--fb {
+    .sprite(@icon-facebook);
+    position: absolute;
+    top: 15px;
+    left: 20px;
+  }
+
+  &--youtube {
+    .sprite(@icon-youtube);
+    position: absolute;
+    top: 17px;
+    left: 15px;
+  }
+}
+
+.page-footer__copyright {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  padding-top: 30px;
+
+
+  .page-footer__icon-glukhino {
+    display: inline-block;
+    vertical-align: middle;
+
+    .sprite(@icon-glukhanko);
+  }
+
+  .page-footer__icon-glukhino:hover {
+    .sprite(@icon-glukhanko-hover);
+  }
+
+  .page-footer__icon-glukhino:active {
+    .sprite(@icon-glukhanko-active);
+  }
+
+  .page-footer__icon-academy {
+    display: inline-block;
+    vertical-align: middle;
+
+    .sprite(@icon-h-t-m-l-academy)
+  }
+
+  .page-footer__icon-academy:hover {
+    .sprite(@icon-h-t-m-l-academy-hover)
+  }
+
+  .page-footer__icon-academy:active {
+    .sprite(@icon-h-t-m-l-academy-active)
+  }
+}
+
+@media (min-width: 768px) {
+  .page-footer__hash {
+    width: 33%;
+    padding-top: 40px;
+  }
+
+  .page-footer__social-links {
+    width: 33%;
+  }
+
+  .page-footer__copyright {
+    width: 33%;
+    padding-top: 40px;
+  }
+}
+
+
+@media all and (min-width: 1200px){
+  .page-footer__layout {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    background-color: #fff;
+
+    box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+  }
+}

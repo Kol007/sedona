@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="475bbb01-6193-4e6e-b729-1ef9f0d33460" name="93.89.215.44" url="http://93.89.215.44">
+        <fileTransfer host="93.89.215.44" port="1322" rootFolder="/home/nikita/less/maket/sedona2" accessType="SFTP" password="dfcfdfccdf9cdf99df93dfc8df9adf9f" username="nikita">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,1545 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  margin: .67em 0;
+  font-size: 2em;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  color: #000;
+  background: #ff0;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  position: relative;
+  vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  /* 3 */
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  /* 3 */
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+
+input[type="search"] {
+  box-sizing: content-box;
+  /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+  border: 1px solid #c0c0c0;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  padding: 0;
+  /* 2 */
+  border: 0;
+  /* 1 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+.def_title {
+  margin-bottom: 20px;
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.def_text {
+  color: #333;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+body {
+  min-width: 320px;
+  text-transform: uppercase;
+  font-family: "PT Sans", "Arial", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  text-transform: uppercase;
+  outline: none;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: bold;
+}
+
+.page-figure {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 36px;
+  margin: 0;
+}
+
+.page-figure__right-angle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 800px solid transparent;
+}
+
+.page-figure__left-angle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-right: 800px solid transparent;
+}
+
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+
+.page-header__wrapper {
+  text-align: center;
+}
+
+.page-header__logo {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 138px;
+  margin: 0 auto;
+}
+
+.page-header {
+  min-height: 65px;
+}
+
+.main-menu-mobile {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  background-color: #81b3d2;
+}
+
+.main-menu-mobile__item {
+  margin-bottom: 2px;
+  box-shadow: 0 1px 0 0 rgba(1, 1, 1, .2), inset 0 1px 0 0 rgba(255, 255, 255, .2);
+}
+
+.main-menu-mobile__item:last-child {
+  margin: 0;
+  box-shadow: 0 1px 0 0 rgba(1, 1, 1, .2), inset 0 1px 0 0 rgba(255, 255, 255, .2), inset 0 -2px 0 0 rgba(0, 0, 0, .2);
+}
+
+.main-menu-mobile__item:hover {
+  background-color: #669ec0;
+}
+
+.main-menu-mobile__item:active {
+  background-color: #5496bd;
+}
+
+.main-menu-mobile__links-item {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.main-menu-mobile__links-item:active {
+  color: #94b9d2;
+}
+
+.main-menu__close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.main-menu__close-bar {
+  width: 23px;
+  height: 4px;
+  margin-top: 5px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-color: #81b3d2;
+}
+
+.main-menu__close-bar--opened {
+  position: absolute;
+  right: 10px;
+  width: 23px;
+  height: 4px;
+  margin-top: 5px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  background-color: #fff;
+}
+
+.main-menu__close-bar--opened:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.main-menu__close-bar--opened:nth-child(2) {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.main-menu__close-bar--opened:nth-child(3) {
+  width: 0;
+}
+
+.page-main {
+  margin-top: -15px;
+  text-align: center;
+}
+
+.intro {
+  position: relative;
+  min-height: 450px;
+  text-align: center;
+  background-image: url(../img/header-bg@1x.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 100%;
+}
+
+.page-figure--intro {
+  bottom: 0;
+  height: 55px;
+}
+
+.page-figure--intro .page-figure__left-angle,
+.page-figure--intro .page-figure__right-angle {
+  border-bottom: 80px solid #fff;
+}
+
+.page-figure--intro-inner {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  width: 65%;
+  height: 75px;
+  margin: 0 auto;
+}
+
+.page-figure--intro-inner .page-figure__left-angle,
+.page-figure--intro-inner .page-figure__right-angle {
+  border-bottom: 75px solid #fff;
+}
+
+.page-figure--intro-inner .page-figure__left-angle {
+  border-right: 500px solid transparent;
+}
+
+.page-figure--intro-inner .page-figure__right-angle {
+  border-left: 500px solid transparent;
+}
+
+.intro__img-welcome {
+  max-height: 70px;
+  margin-top: 45px;
+}
+
+.intro__text-title {
+  color: #fff;
+  font-size: 46px;
+}
+
+.intro__img-bottom {
+  max-height: 81px;
+}
+
+.intro__img-footer-decor {
+  margin-top: 0;
+}
+
+.promo {
+  text-align: center;
+}
+
+.promo__promo-header {
+  padding: 0 20px;
+  padding-bottom: 50px;
+}
+
+.promo__promo-title_main {
+  margin-bottom: 20px;
+  padding: 40px 20px;
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.promo__promo-header p {
+  padding: 0 20px;
+  color: #333;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.promo__promo-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.promo__promo-count {
+  margin-bottom: 20px;
+  padding: 0 20px;
+  color: #333;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.promo__promo-text {
+  padding: 0 20px;
+  padding-bottom: 40px;
+  color: #333;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.promo__promo-ico {
+  position: relative;
+  top: 40px;
+  left: 20px;
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  background-repeat: no-repeat;
+}
+
+.promo__promo-building-ico {
+  position: relative;
+  top: 40px;
+  left: 20px;
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  background-image: url(../img/icon/sprite.png);
+  background-repeat: no-repeat;
+  background-position: -66px -74px;
+}
+
+.promo__promo-souvenir-ico {
+  position: relative;
+  top: 40px;
+  left: 20px;
+  display: inline-block;
+  width: 37px;
+  width: 32px;
+  height: 37px;
+  height: 38px;
+  background-image: url(../img/icon/sprite.png);
+  background-repeat: no-repeat;
+  background-position: -153px 0;
+}
+
+.promo__promo-food-ico {
+  position: relative;
+  top: 40px;
+  left: 20px;
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  height: 35px;
+  background-image: url(../img/icon/sprite.png);
+  background-repeat: no-repeat;
+  background-position: -105px -74px;
+}
+
+.promo__promo-title--ico {
+  margin-top: 0;
+  margin-top: -17px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  padding: 0 20px;
+  padding-top: 30px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.promo__promo-text--ico {
+  margin-left: 50px;
+  padding: 0 20px;
+  padding-bottom: 40px;
+  text-align: left;
+  color: #333;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.promo__promo-img--first {
+  width: 100%;
+  height: 255px;
+  background-image: url(../img/feature-1@1x.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.promo__promo-img--second {
+  width: 100%;
+  height: 255px;
+  background-image: url(../img/feature-2@1x.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.promo__promo-items {
+  position: relative;
+  font-size: 0;
+}
+
+.promo__promo-item {
+  padding-top: 30px;
+}
+
+.promo__promo-item--blue {
+  color: #fff;
+  background-color: #81b3d2;
+}
+
+.promo__promo-item--blue .promo__promo-text {
+  color: #fff;
+}
+
+.promo__promo-item--blue .promo__promo-count {
+  color: #fff;
+}
+
+.promo__promo-item--icon {
+  text-align: left;
+}
+
+.promo__promo-item--grey {
+  background-color: #eee;
+}
+
+.promo__promo-item--grey > div:not(:last-child)::after {
+  display: block;
+  height: 1px;
+  margin: 0 20px;
+  content: "";
+  background-color: #d6d6d6;
+}
+
+.page-figure--promo {
+  top: -35px;
+}
+
+.page-figure--promo .page-figure__left-angle,
+.page-figure--promo .page-figure__right-angle {
+  border-bottom: 76px solid #81b3d2;
+}
+
+.hotel-order {
+  position: relative;
+  margin: 0 auto;
+}
+
+.hotel-order__wrapper {
+  padding: 0 20px;
+}
+
+.hotel-order__header {
+  margin-bottom: 20px;
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.hotel-order__text {
+  padding-bottom: 30px;
+  color: #333;
+  font-size: 14px;
+  line-height: 21px;
+  line-height: 24px;
+}
+
+.hotel-order__title {
+  max-width: 570px;
+  margin: 0 auto;
+  padding: 30px 0;
+  color: #fff;
+  background-color: #766357;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.hotel-order label {
+  margin-bottom: 20px;
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.hotel-order__form {
+  width: 100%;
+  max-width: 570px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .15);
+}
+
+.hotel-order__form input {
+  box-sizing: border-box;
+  padding: 6px 15px;
+  padding-right: 35px;
+  border: 0;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.hotel-order__form input:hover {
+  background-color: #ebebeb;
+}
+
+.hotel-order__form input:focus {
+  outline: 2px solid #e5e5e5;
+  background-color: #fff;
+}
+
+.hotel-order__input-date {
+  position: relative;
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.hotel-order__input-date input,
+.hotel-order__input-date label {
+  width: 100%;
+}
+
+.hotel-order__input-date label {
+  display: block;
+}
+
+.hotel-order__input-count {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.hotel-order__input-count--adult {
+  float: left;
+}
+
+.hotel-order__input-count--children {
+  float: right;
+}
+
+.hotel-order__input-count--adult label,
+.hotel-order__input-count--children label {
+  display: block;
+}
+
+.hotel-order__input-count input {
+  width: 115px;
+  padding-left: 35px;
+}
+
+.hotel-order__input-count-wrapper {
+  position: relative;
+}
+
+.hotel-order__input-count-minus,
+.hotel-order__input-count-plus {
+  position: absolute;
+  z-index: 20;
+  top: 3px;
+  border: none;
+  background-color: transparent;
+}
+
+.hotel-order__input-count-minus {
+  left: 5px;
+}
+
+.hotel-order__input-count-plus {
+  right: 5px;
+}
+
+.hotel-order__submit {
+  width: 100%;
+  margin-top: 55px;
+  margin-bottom: 48px;
+  padding: 17px 0;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  background-color: #81b3d2;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.hotel-order__submit:hover {
+  background-color: #669ec0;
+}
+
+.hotel-order__submit:active {
+  color: #94b9d2;
+  background-color: #5496bd;
+}
+
+.hotel-order__map {
+  width: 100%;
+  height: 360px;
+  background-image: url(../img/bg-map@1x.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.hotel-order__input-date .icon {
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: 22px;
+  margin-top: -30px;
+  background-image: url(../img/icon/sprite.png);
+  background-position: 0 -152px;
+}
+
+.hotel-order__input-date .icon:hover {
+  width: 20px;
+  height: 22px;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -22px -152px;
+}
+
+.hotel-order__input-date .icon:active {
+  width: 20px;
+  height: 22px;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -44px -152px;
+}
+
+.hotel-order__input-count-minus {
+  position: absolute;
+  top: 16px;
+  width: 10px;
+  height: 3px;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -153px -145px;
+}
+
+.hotel-order__input-count-minus:hover {
+  width: 10px;
+  height: 3px;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -165px -145px;
+}
+
+.hotel-order__input-count-minus:active {
+  width: 10px;
+  height: 3px;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -66px -145px;
+}
+
+.hotel-order__input-count-plus {
+  position: absolute;
+  top: 12px;
+  width: 10px;
+  height: 10px;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -132px -152px;
+}
+
+.hotel-order__input-count-plus:hover {
+  width: 10px;
+  height: 10px;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -120px -152px;
+}
+
+.hotel-order__input-count-plus:active {
+  width: 10px;
+  height: 10px;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -108px -152px;
+}
+
+.page-footer {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.page-footer__hash {
+  display: inline-block;
+  width: 100%;
+  padding-top: 30px;
+  vertical-align: top;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.page-footer__social-links {
+  display: inline-block;
+  width: 100%;
+  padding-top: 30px;
+  vertical-align: top;
+}
+
+.page-footer__social-links ul {
+  list-style: none;
+  font-size: 0;
+}
+
+.page-footer__social-links ul::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.page-footer__social-links ul li {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  vertical-align: top;
+  background-color: #81b3d2;
+}
+
+.page-footer__social-links ul li:hover {
+  background-color: #669ec0;
+}
+
+.page-footer__social-links ul li:active {
+  background-color: #5496bd;
+}
+
+.social-link {
+  display: block;
+  width: inherit;
+  height: inherit;
+}
+
+.social-link--tw {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 18px;
+  height: 14px;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -88px -152px;
+}
+
+.social-link--fb {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 8px;
+  height: 18px;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -187px 0;
+}
+
+.social-link--youtube {
+  position: absolute;
+  top: 17px;
+  left: 15px;
+  width: 20px;
+  height: 14px;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -66px -152px;
+}
+
+.page-footer__copyright {
+  display: inline-block;
+  width: 100%;
+  padding-top: 30px;
+  vertical-align: top;
+}
+
+.page-footer__copyright .page-footer__icon-glukhino {
+  display: inline-block;
+  width: 27px;
+  height: 30px;
+  vertical-align: middle;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -95px -113px;
+}
+
+.page-footer__copyright .page-footer__icon-glukhino:hover {
+  width: 27px;
+  height: 30px;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -124px -113px;
+}
+
+.page-footer__copyright .page-footer_icon-glukhanko-active {
+  width: 27px;
+  height: 30px;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -66px -113px;
+}
+
+.page-footer__copyright .page-footer__icon-academy {
+  display: inline-block;
+  width: 27px;
+  height: 33px;
+  vertical-align: middle;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -153px -110px;
+}
+
+.page-footer__copyright .page-footer__icon-academy:hover {
+  width: 27px;
+  height: 33px;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -153px -75px;
+}
+
+.page-footer__copyright .page-icon-h-t-m-l-academy-active {
+  width: 27px;
+  height: 33px;
+  background-image: url(../img/icon/sprite.png);
+  background-position: -153px -40px;
+}
+
+@media (min-width: 768px) {
+  .def_title {
+    font-size: 21px;
+  }
+
+  .def_text {
+    line-height: 26px;
+  }
+
+  .main-menu__close {
+    display: none;
+  }
+
+  .main-menu-mobile {
+    display: block;
+    background-color: #fff;
+    font-size: 0;
+  }
+
+  .main-menu-mobile__item,
+  .main-menu-mobile__item:last-child {
+    display: inline-block;
+    width: 20%;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+  }
+
+  .main-menu-mobile__item:nth-child(2) {
+    margin-right: 20%;
+  }
+
+  .main-menu-mobile__links-item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #000;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+  }
+
+  .intro {
+    background-image: url(../img/header-bg@2x.jpg);
+  }
+
+  .page-figure--intro-inner {
+    display: block;
+  }
+
+  .intro__img-welcome {
+    margin-top: 75px;
+  }
+
+  .col-4-12 {
+    width: 33.33%;
+  }
+
+  .col-8-12 {
+    width: 66.66%;
+  }
+
+  .page-figure--promo {
+    display: none;
+  }
+
+  .promo__promo-title {
+    font-size: 21px;
+  }
+
+  .promo__promo-title_main {
+    font-size: 21px;
+  }
+
+  .promo__promo-item--blue {
+    display: table;
+    clear: both;
+    width: 100%;
+    content: "";
+  }
+
+  .promo__promo-item--blue > div {
+    display: inline-block;
+    height: 255px;
+    vertical-align: top;
+  }
+
+  .promo__promo-img--first {
+    background-image: url(../img/feature-1@2x.jpg);
+  }
+
+  .promo__promo-img- {
+    background-image: url(../img/feature-2@2x.jpg);
+  }
+
+  .promo__promo-img img {
+    height: 255px;
+  }
+
+  .promo__promo-item--icon {
+    display: table;
+    clear: both;
+    content: "";
+  }
+
+  .promo__promo-item--icon > div {
+    display: inline-block;
+    height: 320px;
+    vertical-align: top;
+  }
+
+  .promo__promo-item--icon > div {
+    position: relative;
+  }
+
+  .promo__promo-building-ico {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    left: 0;
+    width: 75px;
+    height: 72px;
+    margin: 0 auto;
+    background-image: url(../img/icon/sprite.png);
+    background-position: 0 0;
+  }
+
+  .promo__promo-souvenir-ico {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    left: 0;
+    width: 64px;
+    height: 76px;
+    margin: 0 auto;
+    background-image: url(../img/icon/sprite.png);
+    background-position: 0 -74px;
+  }
+
+  .promo__promo-food-ico {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    left: 0;
+    width: 74px;
+    height: 70px;
+    margin: 0 auto;
+    background-image: url(../img/icon/sprite.png);
+    background-position: -77px 0;
+  }
+
+  .promo__promo-title--ico {
+    margin-top: 115px;
+    margin-left: 0;
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .promo__promo-text--ico {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .promo__promo-item--grey > div {
+    display: inline-block;
+    height: 255px;
+    vertical-align: top;
+  }
+
+  .promo__promo-item--grey > div.col-4-12::after {
+    display: none;
+  }
+
+  .hotel-order__header {
+    font-size: 21px;
+  }
+
+  .hotel-order__wrapper {
+    padding: 0 55px;
+  }
+
+  .hotel-order__input-date {
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 35px;
+  }
+
+  .hotel-order__input-date input {
+    float: right;
+    width: 350px;
+  }
+
+  .hotel-order__input-date .icon {
+    margin-top: 8px;
+  }
+
+  .hotel-order__form {
+    position: absolute;
+    top: 240px;
+    right: 0;
+    left: 0;
+  }
+
+  .hotel-order__form label {
+    display: initial;
+    margin-right: 13px;
+    font-size: 14px;
+  }
+
+  .hotel-order__input-count-wrapper {
+    display: inline-block;
+  }
+
+  .hotel-order__input-count--adult,
+  .hotel-order__input-count--children {
+    padding-top: 35px;
+  }
+
+  .hotel-order__input-count {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    margin-right: 0;
+    margin-left: 0;
+    vertical-align: top;
+  }
+
+  .hotel-order__input-count label {
+    margin-right: 30px;
+  }
+
+  .hotel-order__map {
+    height: 475px;
+    background-image: url(../img/bg-map@2x.jpg);
+  }
+
+  .page-footer__hash {
+    width: 33%;
+    padding-top: 40px;
+  }
+
+  .page-footer__social-links {
+    width: 33%;
+  }
+
+  .page-footer__copyright {
+    width: 33%;
+    padding-top: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro {
+    background-image: url(../img/header-bg@3x.jpg);
+  }
+}
+
+@media (min-width: 1280px) {
+  .hotel-order__map {
+    height: 765px;
+    background-image: url(../img/bg-map@3x.jpg);
+  }
+}

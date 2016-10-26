@@ -1,7 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cec3b9a-d2de-487a-bd3f-ecc8a7b41409" name="Default" comment="" />
+    <list default="true" id="7cec3b9a-d2de-487a-bd3f-ecc8a7b41409" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/bg-map@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/bg-map@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/bg-map@3x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/feature-1@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/feature-1@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/feature-1@3x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/feature-2@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/feature-2@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/feature-2@3x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/footer-map-bg@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/footer-map-bg@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/footer-map-bg@3x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/header-bg@1x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/header-bg@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/header-bg@3x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/Glukhanko--active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/Glukhanko--hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/Glukhanko.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/HTML Academy--active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/HTML Academy--hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/HTML Academy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/Youtube.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/building.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/building@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/date--active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/date--hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/date.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/food.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/food@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/minus--active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/minus--hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/plus--active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/plus--hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/souvenir.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/souvenir@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/logo@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/logo@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/logo@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/welcome-footer-stripe@1x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/white-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/white-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/humans.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/sprite.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon/sprite.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon_svg/academy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon_svg/facebook.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon_svg/gl.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon_svg/twitter.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/icon_svg/youtube.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/intro-footer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/welcome-.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/welcome-2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/welcome-footer-stripe@1x.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/welcome.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/white@2x.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/js/plugins.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/js/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/js/test.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/js/test.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="sedona2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -12,7 +90,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -52,7 +129,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -60,6 +137,16 @@
               <folding>
                 <marker date="1465239725000" expanded="true" signature="2900:2908" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,11 +195,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/less/variable.less" />
         <option value="$PROJECT_DIR$/build/css/main.css" />
         <option value="$PROJECT_DIR$/src/js/vendor/picturefill.min.js" />
@@ -143,6 +232,7 @@
         <option value="$PROJECT_DIR$/src/less/components/intro.less" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -164,8 +254,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1692" />
-    <option name="height" value="1026" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -192,6 +282,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -210,42 +301,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sedona" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sedona" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sedona" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sedona" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,6 +319,7 @@
     <property name="js.buildTools.gulp.gulp_package_dir" value="C:\Users\Home\Dropbox\work_train\geek\php2\maket\sedona2\node_modules\gulp" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="C:\Users\Lenovo\AppData\Roaming\npm\node_modules\grunt-cli" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="prop_add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -277,8 +336,6 @@
     <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
       <node-interpreter value="project" />
       <envs />
-      <force value="false" />
-      <verbose value="false" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -385,11 +442,12 @@
       <workItem from="1465653000054" duration="1969000" />
       <workItem from="1468077748382" duration="1529000" />
       <workItem from="1468152035543" duration="209000" />
+      <workItem from="1477501407232" duration="145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179319000" />
+    <option name="totallyTimeSpent" value="179464000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,24 +459,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1692" height="1026" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17524509" sideWeight="0.29865772" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17524509" sideWeight="0.7013423" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17473525" sideWeight="0.30769232" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17473525" sideWeight="0.6923077" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23076923" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20458265" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23615819" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960254" sideWeight="0.5040369" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23076923" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20564972" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31525424" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17782739" sideWeight="0.251634" order="4" side_tool="true" content_ui="tabs" />
@@ -556,13 +616,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/vendor/picturefill.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -827,6 +880,14 @@
           <folding>
             <marker date="1465239725000" expanded="true" signature="2900:2908" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
